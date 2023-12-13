@@ -1,0 +1,99 @@
+body{
+    background: linear-gradient(
+        to right,
+        #013a6c 0%,
+        #012d53 25%,
+        #00213e 50%,
+        #001220 75%,
+        #000a12 100%
+        
+    );
+    margin: 0px;
+    padding: 0px;
+    width: 50%;
+    height: 100vh;
+}
+.container{
+    position: relative;
+    left: 450px;
+    top: 100px;
+    margin: auto;
+    transition-duration: 3s;
+    animation-duration: 3s;
+    
+}
+
+.profile img{
+    width: 70px;
+    height: 70px;
+    outline: 2px solid black;
+    border-radius: 50px;
+    
+}
+.profile{
+    position: relative;
+    left: 15px;
+}
+.username{
+    box-shadow: 0px 0px 0.2px;
+    color: white;
+    display:block;
+    
+    width: 100px;
+    justify-content: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.textarea{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 200px;
+    position: relative;
+    right: 52px;
+}
+.textarea input{
+    border-radius:15px 20px 15px 20px;
+    padding: 3px;
+    border: none;
+    padding-left: 20px;
+    border: 1px solid black;;
+    background-color: #033d70;
+}
+
+.textarea input::placeholder{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button{
+    position: relative;
+    right: 52px;
+    width: 200px;
+    height: 30px;
+    border-radius:15px 20px 15px 20px;
+    bottom: 5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    background-color: #00213e;
+}
+button:hover{
+    box-shadow: 0px 0px 20px;
+    
+}
+button:focus{
+    border: 1px solid green;
+}
+
+.help a{
+    display: block;
+    
+    position: relative;
+    right: 45px;
+
+    text-decoration: none;
+    color: white;
+}
+.help a:hover{
+    text-decoration: underline;
+}
+

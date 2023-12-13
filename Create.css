@@ -1,0 +1,123 @@
+body{
+    background: linear-gradient(
+        to right,
+        #013a6c 0%,
+        #012d53 25%,
+        #00213e 50%,
+        #001220 75%,
+        #000a12 100%
+    );
+    width: 100%;
+    height: 80vh;
+
+    
+}
+.container{
+    margin: 0px auto;
+    border: 2px solid black;
+    width: 40%;
+    color: white;
+    padding: 2px 5px;
+    box-shadow: 0px 0px 20px rgb(2, 2, 15);
+    transition-duration: 3s;
+    animation-duration: 3s;
+
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 2em;
+    position: relative;
+    bottom: 20px;
+
+}
+span{
+    position: relative;
+    right: 20px;
+    top: 13px;
+    font-size: 2em; 
+} 
+.line{
+    position: relative;
+    left: 3px;
+    top: -80px;
+    
+}
+h4{
+    position: relative;
+    bottom: 50px;
+}
+input{
+    background-color: transparent;
+    border-radius: 5px;
+    position: relative;
+    bottom: 60px;
+    
+}
+.names input{
+    width: 45%;
+}
+.email input{
+    width: 93% !important;
+}
+.password input{
+    width: 50%;
+}
+.birth{
+    position: relative;
+    bottom: 80px;
+}
+select{
+    width: 20%;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.gender{
+    position: relative;
+    bottom: 80px;
+}
+.gender input:nth-of-type(3){
+    position: relative;
+    top: 2px;
+    
+}
+.gender input:nth-of-type(2){
+    position: relative;
+    top: 2px;
+}
+.gender input:nth-of-type(1){
+    position: relative;
+    top: 2px;
+}
+
+.first{
+    position: relative;
+    bottom: 70px;
+    font-size: 13px;
+}
+.second{
+    position: relative;
+    bottom: 70px;
+    font-size: 13px;
+}
+em, strong{
+    color: black;
+    background-color:gray;
+}
+
+button{
+    position: relative;
+    left: 100px;
+    bottom: 35px;
+    width: 40%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: transparent;
+    border-color: white;
+
+}
+button:focus{
+    background-color: green;
+}

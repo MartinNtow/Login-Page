@@ -1,0 +1,51 @@
+body{
+    background: linear-gradient(
+
+        to right,
+        #013a6c 0%,
+        #012d53 25%,
+        #00213e 50%,
+        #001220 75%,
+        #000a12 100%
+        
+    );
+    margin: 0px;
+    padding: 0px;
+    width: 50%;
+    height: 100vh;
+}
+.container{
+    position: relative;
+    left: 250px;
+    top: 100px;
+    margin: auto;
+    border: 1px solid black;
+    box-shadow: 0px 0px 15px;
+    width: 75%;
+    transition-duration: 5s;
+
+}
+.heading h3{
+    text-align: center;
+}
+.textfield input{
+    width: 85%;
+    
+}
+.textfield{
+    position: relative;
+    left: 20px;
+    bottom: 3px;
+}
+.textfield input::placeholder{
+    text-align: center;
+}
+button{
+    position: relative;
+    left: 250px;
+    bottom: 5px;
+}
+button:nth-of-type(2) {
+    background: #001220;
+    
+} 
