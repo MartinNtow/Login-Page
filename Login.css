@@ -15,9 +15,9 @@ body{
 }
 .container{
     position: relative;
-    left: 450px;
+    left: 550px;
     top: 100px;
-    margin: auto;
+    margin: 0px auto;
     transition-duration: 3s;
     animation-duration: 3s;
     
